@@ -1,0 +1,31 @@
+body {
+    background-color: #34495e;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+section#contact-form {
+    color:  #2c3e50;
+}
+
+div.form-wrapper {
+    background-color: #1abc9c;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+.form-group.required .control-label:after {
+    content:" *";
+    color: #e74c3c;
+}
+
+form textarea#message {
+    resize: vertical;
+}
